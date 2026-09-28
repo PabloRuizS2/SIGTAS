@@ -1,25 +1,35 @@
-# SIGTAS - Prototipo base
+# SIGTAS - Sistema de Gestión de Turnos y Atención
 
-Sistema de Gestión de Turnos y Atención para un centro médico.
+Prototipo académico correspondiente al AP2 de Licenciatura en Informática.
 
 ## Tecnologías
-- Java
-- MySQL
+- Java 17+
+- MySQL 8+
+- JDBC
+- Maven
 
 ## Estructura
-- `src/main/java/com/sigtas/App.java`: punto de entrada del prototipo.
-- `database/schema.sql`: creación de la base de datos y datos iniciales.
+- `src/main/java/ar/edu/sigtas/config`: conexión a MySQL.
+- `src/main/java/ar/edu/sigtas/model`: entidades del dominio.
+- `src/main/java/ar/edu/sigtas/repository`: contratos de persistencia.
+- `src/main/java/ar/edu/sigtas/service`: reglas de negocio.
+- `src/main/java/ar/edu/sigtas/ui`: prototipo de consola.
+- `sql/schema.sql`: creación de la base y tablas.
+- `sql/data.sql`: datos de prueba.
+- `sql/queries.sql`: inserción, consulta, modificación y borrado de registros.
 
-## Próximos módulos
-1. Autenticación y roles.
-2. Gestión de pacientes.
-3. Gestión de profesionales y especialidades.
-4. Agenda y disponibilidad.
-5. Turnos.
-6. Registro de atención.
-7. Reportes.
+## Preparación de MySQL
+1. Crear/ejecutar `sql/schema.sql`.
+2. Ejecutar `sql/data.sql`.
+3. Configurar las variables de entorno:
+   - `SIGTAS_DB_URL` (por defecto `jdbc:mysql://localhost:3306/sigtas?useSSL=false&serverTimezone=America/Argentina/Buenos_Aires`)
+   - `SIGTAS_DB_USER`
+   - `SIGTAS_DB_PASSWORD`
+4. Compilar con `mvn clean package`.
+5. Ejecutar `ar.edu.sigtas.ui.Main` desde el IDE.
 
-## Base de datos
-Ejecutar `database/schema.sql` sobre MySQL y luego completar las credenciales de conexión en la aplicación.
+## Prototipo
+El menú permite consultar disponibilidad, registrar turnos, cancelar turnos y consultar la agenda. La lógica de negocio valida que el paciente exista, que la agenda esté activa y que la franja no se encuentre ocupada.
 
-> Este repositorio constituye la base del prototipo para la etapa de construcción. Antes de la entrega final debe publicarse en GitHub y agregarse al informe la URL real del repositorio.
+## Repositorio de referencia
+https://github.com/PabloRuizS2/SIGTAS
