@@ -1,0 +1,128 @@
+Sesión real de Main contra MySQL 8.4.13, 07/11/2026.
+
+=== SIGTAS - Prototipo de consola ===
+
+
+1. Consultar agenda diaria
+2. Registrar turno
+3. Cancelar turno
+4. Exportar agenda CSV
+5. Leer agenda CSV
+0. Salir
+
+Opción: 2
+ID paciente: 1
+ID agenda: 1
+Fecha (AAAA-MM-DD): 2026-11-09
+Hora inicio (HH:MM): 09:00
+Hora fin (HH:MM): 09:30
+ID usuario: 2
+Turno registrado correctamente. ID=4
+
+
+1. Consultar agenda diaria
+2. Registrar turno
+3. Cancelar turno
+4. Exportar agenda CSV
+5. Leer agenda CSV
+0. Salir
+
+Opción: 1
+Fecha (AAAA-MM-DD): 2026-11-09
+ASIGNADO: 1
+
+PRESENTE: 0
+
+ATENDIDO: 0
+
+CANCELADO: 0
+
+#4 | agenda=1 | paciente=1 | 09:00-09:30 | ASIGNADO
+
+
+1. Consultar agenda diaria
+2. Registrar turno
+3. Cancelar turno
+4. Exportar agenda CSV
+5. Leer agenda CSV
+0. Salir
+
+Opción: 2
+ID paciente: 1
+ID agenda: 1
+Fecha (AAAA-MM-DD): 2026-11-09
+Hora inicio (HH:MM): 09:00
+Hora fin (HH:MM): 09:30
+ID usuario: 2
+Dato inválido: El profesional ya tiene un turno superpuesto
+
+
+1. Consultar agenda diaria
+2. Registrar turno
+3. Cancelar turno
+4. Exportar agenda CSV
+5. Leer agenda CSV
+0. Salir
+
+Opción: 3
+ID turno: 4
+ID usuario: 2
+Motivo: Cambio solicitado por el paciente
+Turno cancelado y horario liberado.
+
+
+1. Consultar agenda diaria
+2. Registrar turno
+3. Cancelar turno
+4. Exportar agenda CSV
+5. Leer agenda CSV
+0. Salir
+
+Opción: 1
+Fecha (AAAA-MM-DD): 2026-11-09
+ASIGNADO: 0
+
+PRESENTE: 0
+
+ATENDIDO: 0
+
+CANCELADO: 1
+
+#4 | agenda=1 | paciente=1 | 09:00-09:30 | CANCELADO
+
+
+1. Consultar agenda diaria
+2. Registrar turno
+3. Cancelar turno
+4. Exportar agenda CSV
+5. Leer agenda CSV
+0. Salir
+
+Opción: 4
+Fecha (AAAA-MM-DD): 2026-11-09
+Guardado: C:\Users\pablo\Documents\Codex\2026-10-29\objetivo-esta-actividad-busca-que-seas\work\video\exportaciones\agenda-2026-11-09.csv
+
+
+1. Consultar agenda diaria
+2. Registrar turno
+3. Cancelar turno
+4. Exportar agenda CSV
+5. Leer agenda CSV
+0. Salir
+
+Opción: 5
+Fecha del archivo (AAAA-MM-DD): 2026-11-09
+ID;PACIENTE;AGENDA;FECHA;INICIO;FIN;ESTADO
+4;1;1;2026-11-09;09:00;09:30;CANCELADO
+
+
+
+1. Consultar agenda diaria
+2. Registrar turno
+3. Cancelar turno
+4. Exportar agenda CSV
+5. Leer agenda CSV
+0. Salir
+
+Opción: 0
+Fin del prototipo.

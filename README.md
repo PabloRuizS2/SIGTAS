@@ -1,3 +1,9 @@
+## Entrega final AP4
+
+La versión integradora final está en [AP4](AP4/), con código Java, MySQL, informe y evidencia de 24 pruebas aprobadas. Consultar [AP4/README.md](AP4/README.md) para instalar y ejecutar.
+
+---
+
 # SIGTAS – Sistema Integral de Gestión de Turnos y Atención Sanitaria
 
 Proyecto académico: Seminario de Práctica de Informática, TP3. Continuación del AP2.

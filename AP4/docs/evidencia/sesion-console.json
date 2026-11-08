@@ -1,0 +1,277 @@
+[
+  [
+    0.094,
+    "o",
+    "=== SIGTAS - Prototipo de consola ===\r\n\n1. Consultar agenda diaria\n2. Registrar turno\n3. Cancelar turno\n4. Exportar agenda CSV\n5. Leer agenda CSV\n0. Salir\r\nOpción: "
+  ],
+  [
+    0.094,
+    "i",
+    "2\n"
+  ],
+  [
+    0.094,
+    "o",
+    "ID paciente: "
+  ],
+  [
+    0.094,
+    "i",
+    "1\n"
+  ],
+  [
+    0.094,
+    "o",
+    "ID agenda: "
+  ],
+  [
+    0.094,
+    "i",
+    "1\n"
+  ],
+  [
+    0.094,
+    "o",
+    "Fecha (AAAA-MM-DD): "
+  ],
+  [
+    0.094,
+    "i",
+    "2026-11-09\n"
+  ],
+  [
+    0.094,
+    "o",
+    "Hora inicio (HH:MM): "
+  ],
+  [
+    0.094,
+    "i",
+    "09:00\n"
+  ],
+  [
+    0.094,
+    "o",
+    "Hora fin (HH:MM): "
+  ],
+  [
+    0.094,
+    "i",
+    "09:30\n"
+  ],
+  [
+    0.094,
+    "o",
+    "ID usuario: "
+  ],
+  [
+    0.094,
+    "i",
+    "2\n"
+  ],
+  [
+    0.422,
+    "o",
+    "Turno registrado correctamente. ID=4\r\n\n1. Consultar agenda diaria\n2. Registrar turno\n3. Cancelar turno\n4. Exportar agenda CSV\n5. Leer agenda CSV\n0. Salir\r\nOpción: "
+  ],
+  [
+    0.422,
+    "i",
+    "1\n"
+  ],
+  [
+    0.422,
+    "o",
+    "Fecha (AAAA-MM-DD): "
+  ],
+  [
+    0.422,
+    "i",
+    "2026-11-09\n"
+  ],
+  [
+    0.438,
+    "o",
+    "ASIGNADO: 1\r\nPRESENTE: 0\r\nATENDIDO: 0\r\nCANCELADO: 0\r\n#4 | agenda=1 | paciente=1 | 09:00-09:30 | ASIGNADO\r\n\n1. Consultar agenda diaria\n2. Registrar turno\n3. Cancelar turno\n4. Exportar agenda CSV\n5. Leer agenda CSV\n0. Salir\r\nOpción: "
+  ],
+  [
+    0.438,
+    "i",
+    "2\n"
+  ],
+  [
+    0.438,
+    "o",
+    "ID paciente: "
+  ],
+  [
+    0.438,
+    "i",
+    "1\n"
+  ],
+  [
+    0.438,
+    "o",
+    "ID agenda: "
+  ],
+  [
+    0.438,
+    "i",
+    "1\n"
+  ],
+  [
+    0.438,
+    "o",
+    "Fecha (AAAA-MM-DD): "
+  ],
+  [
+    0.438,
+    "i",
+    "2026-11-09\n"
+  ],
+  [
+    0.438,
+    "o",
+    "Hora inicio (HH:MM): "
+  ],
+  [
+    0.438,
+    "i",
+    "09:00\n"
+  ],
+  [
+    0.438,
+    "o",
+    "Hora fin (HH:MM): "
+  ],
+  [
+    0.438,
+    "i",
+    "09:30\n"
+  ],
+  [
+    0.438,
+    "o",
+    "ID usuario: "
+  ],
+  [
+    0.438,
+    "i",
+    "2\n"
+  ],
+  [
+    0.438,
+    "o",
+    "Dato inválido: El profesional ya tiene un turno superpuesto\r\n\n1. Consultar agenda diaria\n2. Registrar turno\n3. Cancelar turno\n4. Exportar agenda CSV\n5. Leer agenda CSV\n0. Salir\r\nOpción: "
+  ],
+  [
+    0.438,
+    "i",
+    "3\n"
+  ],
+  [
+    0.438,
+    "o",
+    "ID turno: "
+  ],
+  [
+    0.438,
+    "i",
+    "4\n"
+  ],
+  [
+    0.438,
+    "o",
+    "ID usuario: "
+  ],
+  [
+    0.438,
+    "i",
+    "2\n"
+  ],
+  [
+    0.438,
+    "o",
+    "Motivo: "
+  ],
+  [
+    0.438,
+    "i",
+    "Cambio solicitado por el paciente\n"
+  ],
+  [
+    0.453,
+    "o",
+    "Turno cancelado y horario liberado.\r\n\n1. Consultar agenda diaria\n2. Registrar turno\n3. Cancelar turno\n4. Exportar agenda CSV\n5. Leer agenda CSV\n0. Salir\r\nOpción: "
+  ],
+  [
+    0.453,
+    "i",
+    "1\n"
+  ],
+  [
+    0.453,
+    "o",
+    "Fecha (AAAA-MM-DD): "
+  ],
+  [
+    0.453,
+    "i",
+    "2026-11-09\n"
+  ],
+  [
+    0.453,
+    "o",
+    "ASIGNADO: 0\r\nPRESENTE: 0\r\nATENDIDO: 0\r\nCANCELADO: 1\r\n#4 | agenda=1 | paciente=1 | 09:00-09:30 | CANCELADO\r\n\n1. Consultar agenda diaria\n2. Registrar turno\n3. Cancelar turno\n4. Exportar agenda CSV\n5. Leer agenda CSV\n0. Salir\r\nOpción: "
+  ],
+  [
+    0.453,
+    "i",
+    "4\n"
+  ],
+  [
+    0.453,
+    "o",
+    "Fecha (AAAA-MM-DD): "
+  ],
+  [
+    0.453,
+    "i",
+    "2026-11-09\n"
+  ],
+  [
+    0.469,
+    "o",
+    "Guardado: C:\\Users\\pablo\\Documents\\Codex\\2026-10-29\\objetivo-esta-actividad-busca-que-seas\\work\\video\\exportaciones\\agenda-2026-11-09.csv\r\n\n1. Consultar agenda diaria\n2. Registrar turno\n3. Cancelar turno\n4. Exportar agenda CSV\n5. Leer agenda CSV\n0. Salir\r\nOpción: "
+  ],
+  [
+    0.469,
+    "i",
+    "5\n"
+  ],
+  [
+    0.469,
+    "o",
+    "Fecha del archivo (AAAA-MM-DD): "
+  ],
+  [
+    0.469,
+    "i",
+    "2026-11-09\n"
+  ],
+  [
+    0.469,
+    "o",
+    "ID;PACIENTE;AGENDA;FECHA;INICIO;FIN;ESTADO\n4;1;1;2026-11-09;09:00;09:30;CANCELADO\n\r\n\n1. Consultar agenda diaria\n2. Registrar turno\n3. Cancelar turno\n4. Exportar agenda CSV\n5. Leer agenda CSV\n0. Salir\r\nOpción: "
+  ],
+  [
+    0.469,
+    "i",
+    "0\n"
+  ],
+  [
+    0.469,
+    "o",
+    "Fin del prototipo."
+  ]
+]
